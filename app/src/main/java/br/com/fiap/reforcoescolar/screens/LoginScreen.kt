@@ -167,12 +167,3 @@ fun LoginScreen() {
         }
     }
 }
-
-
-@Composable
-@Preview(showSystemUi = true, showBackground = true)
-fun LoginScreenPreview(){
-    ReforçoEscolarTheme {
-        LoginScreen()
-    }
-}
