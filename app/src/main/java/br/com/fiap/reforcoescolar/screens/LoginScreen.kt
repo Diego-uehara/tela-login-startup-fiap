@@ -50,7 +50,8 @@ fun LoginScreen() {
             .fillMaxSize()
             .background(Color(127, 179, 226, 255))
     ) {
-        Column(verticalArrangement = Arrangement.Center,
+        Column(
+            verticalArrangement = Arrangement.Center,
             horizontalAlignment = Alignment.CenterHorizontally,
             modifier = Modifier
                 .fillMaxWidth()
@@ -138,8 +139,9 @@ fun LoginScreen() {
 
             Spacer(modifier = Modifier.height(16.dp))
 
-            ButtonsLogin(modifier = Modifier
-                .padding(start = 50.dp, end = 50.dp),
+            ButtonsLogin(
+                modifier = Modifier
+                    .padding(start = 50.dp, end = 50.dp),
                 texto = "Entrar Como Professor",
                 onClick = { /*TODO*/ },
                 corFundo = Color(100, 158, 36, 255),
@@ -151,8 +153,9 @@ fun LoginScreen() {
 
             Spacer(modifier = Modifier.height(10.dp))
 
-            ButtonsLogin(modifier = Modifier
-                .padding(start = 50.dp, end = 50.dp),
+            ButtonsLogin(
+                modifier = Modifier
+                    .padding(start = 50.dp, end = 50.dp),
                 texto = "Entrar Como Aluno",
                 onClick = { /*TODO*/ },
                 corFundo = Color(100, 158, 36, 255),
